@@ -1,0 +1,19 @@
+Initialized empty Git repository in C:/visual studio code/課題/git_challenge/.git/
+PS C:\visual studio code\課題\git_challenge> git log --oneline
+PS C:\visual studio code\課題\git_challenge> git log --oneline
+PS C:\visual studio code\課題\git_challenge> git commit -m hello_world.txtを追加
+[main (root-commit) 7da4def] hello_world.txtを追加
+ create mode 100644 hello_world.txt
+PS C:\visual studio code\課題\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\visual studio code\課題\git_challenge> git add hello_world.txt
+PS C:\visual studio code\課題\git_challenge> git commit -m
+error: switch `m' requires a value
+PS C:\visual studio code\課題\git_challenge> git commit -m 日本語訳を追記
+[main 5c41cfa] 日本語訳を追記
+ 1 file changed, 2 insertions(+)
+PS C:\visual studio code\課題\git_challenge> git log --oneline
+5c41cfa (HEAD -> main) 日本語訳を追記
+7da4def hello_world.txtを追加
+PS C:\visual studio code\課題\git_challenge>
